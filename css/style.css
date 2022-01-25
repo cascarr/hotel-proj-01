@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    
+}
+
+h3 {
+    font-family: 'Space Mono', monospace;
+    text-decoration: underline overline;
+}
+
+.container {
+    background-image: url("https://media.istockphoto.com/photos/downtown-los-angeles-skyline-at-sunset-picture-id963514284?b=1&k=20&m=963514284&s=170667a&w=0&h=qVOQwWmNtyDYkwfUScNTqe6oJ-AbFGszwzwoGluTNEA=");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    max-width: 750px;
+    padding: 2em;
+    width: 80%;
+}
+
+.label {
+    color: #fff;
+    text-align: center;
+}
+
+.book-bt {
+    padding-bottom: 3em;
+}
+
+.in-bk-bt {
+    color: #fff;
+    background-color: tomato;
+    border-radius: 1em;
+    font-weight: 700;
+    padding: .5em .8em;
+    text-decoration: none;
+}
